@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "devStart": "nodemon functions/server.js",
+    "start":"node functions/server.js",
     "build": "netlify deploy --prod"
   },
   "keywords": [],
